@@ -1,0 +1,14 @@
+10
+11
+Frankfurt Mannheim
+Frankfurt Würzburg
+Frankfurt Kassel
+Mannheim  Karlsruhe
+Würzburg Erfurt
+Würzburg Nürnberg
+Stuttgart Nürnberg
+Nürnberg München
+Kassel München
+Karlsruhe   Augsburg
+Augsburg München
+

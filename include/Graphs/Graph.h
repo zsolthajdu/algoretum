@@ -28,13 +28,12 @@ class Graph {
 
 	int		_V;
 	int		_E;
-	std::vector<T>	_nodeNames;
 
 	// Adjacency lists for all vertices
-    GraphAdjacencyStore<T>	_adj;
+	GraphAdjacencyStore<T>	_adj;
 
-    // To support iterating through nodes in the Graph
-    typename GraphAdjacencyStore<T>::iterator _it;
+	 // To support iterating through nodes in the Graph
+	typename GraphAdjacencyStore<T>::iterator _it;
 
 	void addEdge( T v, T w )
 	{

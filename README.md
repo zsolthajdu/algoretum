@@ -1,4 +1,4 @@
-# Algoretum
+# Algoretum [![Build Status](https://travis-ci.org/zsolthajdu/algoretum.svg?branch=master)](https://travis-ci.org/zsolthajdu/algoretum)
 
 Repository to experiement with different - mainly C++ - implementations of some of the basic algorithms and data structures.
 Mainly dealing with graphs, trees and sorting.

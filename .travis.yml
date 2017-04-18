@@ -9,6 +9,6 @@ script:
   - mkdir build
   - cd build
   - cmake -DCMAKE_BUILD_TYPE=Debug .. && make
-  - ./BreadthFirstSearch G_GermanCities.txt Frankfurt -s
+  - ./BreadthFirstPaths G_GermanCities.txt Frankfurt -s
 
 

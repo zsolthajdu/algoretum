@@ -56,6 +56,10 @@ int main( int argc, char **argv )
 		ifstream ifs;
 
 		ifs.open( argv[1]);
+        if( !ifs.good() ) {
+            cerr << "Invalid filename !!\n";
+            return 1;
+        }
 
         if( useInt(argv ) ) {
             int startNode;

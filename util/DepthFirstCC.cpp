@@ -52,13 +52,13 @@ int main( int argc, char **argv )
         ifstream ifs;
 
         ifs.open( argv[1]);
+        if( ifs.good() ) {
 
-        // Instantiate the template with a type
-        if( argv[2][1] == 'i' ) {
-            showComponents< int >( ifs );
-        }
-        else {  // .. otherwise assume string
-            showComponents< string >( ifs );
+            // Instantiate the template with a type
+            if( argv[2][1] == 'i' )
+                showComponents< int >( ifs );
+            else  // .. otherwise assume string
+                showComponents< string >( ifs );
         }
     }
     else
